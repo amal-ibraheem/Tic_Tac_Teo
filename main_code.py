@@ -5,7 +5,7 @@ class main_tab():
         self.ty = Tk()
         self.settings = self.ty.title('TIC TAC TOE'),self.ty.resizable(False,False)
 
-        self.icon = self.ty.iconbitmap('ic_icon.ico')
+        self.icon = self.ty.iconbitmap('Tic_Tac_Teo\pixil-frame-0.ico')
 
         self.frame  = LabelFrame(self.ty)
         self.frame.pack(padx=34, pady= 8)
